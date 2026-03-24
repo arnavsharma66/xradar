@@ -1,22 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📡 XRadar
 
-## Getting Started
+**XRadar** is a smart discovery platform that helps you find *high-performing and viral content on X (Twitter)* — so you can stay ahead of trends, grow faster, and never miss bangers.
 
-First, run the development server:
+🌐 **Live Demo:** [https://xradar-xyz.vercel.app/](https://xradar-xyz.vercel.app/)
+📦 **Repository:** [https://github.com/arnavsharma66/xradar](https://github.com/arnavsharma66/xradar)
+
+---
+
+## ✨ Features
+
+* 🔍 **Discover Viral Posts**
+  Find trending and high-engagement tweets in seconds.
+
+* ⚡ **Real-Time Insights**
+  Stay updated with the latest content performing well on X.
+
+* 🎯 **Signal > Noise**
+  Cuts through spam and low-quality content — only shows what matters.
+
+* 🧠 **Built for Creators & Builders**
+  Perfect for:
+
+  * Crypto Twitter (CT)
+  * Indie hackers
+  * Content creators
+  * Growth-focused users
+
+* 💻 **Fast & Minimal UI**
+  Clean interface designed for speed and usability.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js
+* **Styling:** Tailwind CSS
+* **Deployment:** Vercel
+* **Data Handling:** Custom logic for filtering high-performing posts
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/arnavsharma66/xradar.git
+cd xradar
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit: `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
+
+## 📁 Project Structure
+
+```bash
+xradar/
+├── components/     # UI components
+├── pages/          # App routes (if Next.js)
+├── public/         # Static assets
+├── styles/         # Styling files
+├── utils/          # Helper functions
+└── ...
+```
+
+---
+
+## 🎯 Use Cases
+
+* 🧵 Find inspiration for your next viral tweet
+* 📈 Analyze what content performs well
+* 🧠 Improve your content strategy
+* 🚀 Grow faster on X
+
+---
+
+## 🔮 Future Improvements
+
+* AI-powered tweet scoring
+* Personalised feed
+* Niche filters (crypto, tech, memes, etc.)
+* Bookmark & save system
+* Creator analytics dashboard
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create your feature branch
+3. Commit your changes
+4. Open a PR
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👤 Author
+
+Built by **Arnav Sharma**
+
+* GitHub: [https://github.com/arnavsharma66](https://github.com/arnavsharma66)
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repo
+* 🐦 Share it on X
+* 💬 Give feedback
+
+---
+
+### 💡 Tagline
+
+> “Find bangers before everyone else does.”
+
+---
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
